@@ -18,6 +18,9 @@
     #letrav:hover {
         color: #147568;
     }
+    #denuncia:hover{
+        color:blue;
+    }
     #btn-largoo:hover{
         background: rgb(105, 105, 105);
         color: black;
