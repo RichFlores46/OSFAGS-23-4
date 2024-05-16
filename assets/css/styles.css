@@ -452,13 +452,13 @@ ion-icon{
     margin-bottom: 0;
     margin-top: 0;
 }
-#contnt3 .textnt221{
+#contnt3 .correo-personal-g{
     font-size: 18px;
     color: #fff;
     text-align: center;
     margin-top: 0;
 }
-#contnt3 .textnt2211{
+#contnt3 .correo-personal{
     font-size: 18px;
     color: #fff;
     text-align: center;   
@@ -549,3 +549,13 @@ ion-icon{
     text-decoration: underline;
     font-size: 18px;
 }
+
+#contacto2, #contacto-face, #direccion, #telefono{
+    color: #000;
+    font-size: 18px;
+}
+
+#btns-info-footer {
+    text-align: center;
+}
+
