@@ -69,6 +69,11 @@
     .tab-pane ul li a:hover{
         text-decoration: underline;
     }
+
+        #contnt3 .correo-personal:hover, #contnt3 .correo-personal-g:hover{
+        color: blue;
+        text-decoration: none;
+    }
     
 }
 
