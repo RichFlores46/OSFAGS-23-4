@@ -1,5 +1,4 @@
 @media(hover:hover){
-    /* Cambia el color del texto del botón a blanco */
     #denunciaAn:hover {
         background-color: purple;
     }
@@ -18,9 +17,6 @@
     #letrav:hover {
         color: #147568;
     }
-    #denuncia:hover{
-        color:blue;
-    }
     #btn-largoo:hover{
         background: rgb(105, 105, 105);
         color: black;
@@ -35,7 +31,14 @@
         color: white;
         transform: scale(1.05);
     }
-
+    #contacto:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+    #contacto2:hover, #contacto-face:hover, #direccion:hover, #telefono:hover{
+        color: blue;
+        text-decoration: none;
+    }
     #imgcenter:hover {
         transform: scale(1.1);
         transition: all 0.5s ease;
@@ -70,14 +73,19 @@
         text-decoration: underline;
     }
 
-        #contnt3 .correo-personal:hover, #contnt3 .correo-personal-g:hover{
+    #contnt3 .correo-personal:hover, #contnt3 .correo-personal-g:hover{
         color: blue;
         text-decoration: none;
     }
     
+    .botones-footer #mail:hover,
+    .botones-footer #facebook:hover,
+    .botones-footer #youtube:hover,
+    .botones-footer #twitter:hover {
+        color:white;
+        border-color: transparent;
+    }
 }
-
-
 
 
 @media screen and (max-width:369px){
@@ -91,9 +99,7 @@
     .fb-page[data-width]{
         width:330px;
     }
-    .uk-navbar-center img{
-        width: 120px;
-    }
+     
     #ejemplocontacto{
         background-image: url(../img/BANERS/12.png);
     }
@@ -109,6 +115,27 @@
     #letrav .fa-arrow-left{
         font-size: 1.7rem;
     }
+    .footer .botones-footer .btn{
+        margin: 0 8px;
+    }
+    #img-logo3{
+        width: 35%;
+    }
+    #img-inicio{
+        width: 40%;
+    }
+    #img-logo3{
+        width:75%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 1px;
+    }
+    #img-center-transparencia{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 370px) and (max-width:379px){
@@ -121,9 +148,7 @@
     }
     .fb-page[data-width]{
         width:350px;
-    }
-    .uk-navbar-center img{
-        width: 120px;
+    
     }
     #ejemplocontacto{
         background-image: url(../img/BANERS/12.png);
@@ -141,6 +166,24 @@
     #letrav .fa-arrow-left{
         font-size: 1.7rem;
     }
+    .footer .botones-footer .btn{
+        margin: 0 10px;
+    }
+    #img-inicio{
+        width: 40%;
+    }
+    #img-logo3{
+        width:75%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 1px;
+    }
+    #img-center-transparencia{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:380px) and (max-width:400px){
@@ -154,9 +197,7 @@
     .fb-page[data-width]{
         width:365px;
     }
-    .uk-navbar-center img{
-        width: 120px;
-    }
+     
     #pdfaviso{
         width: 100%;
         height: 200px;
@@ -173,6 +214,24 @@
     #letrav .fa-arrow-left{
         font-size: 1.7rem;
     }
+    .footer .botones-footer .btn{
+        margin: 0 10px;
+    }
+    #img-inicio{
+        width: 40%;
+    }
+    #img-logo3{
+        width:75%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 1px;
+    }
+    #img-center-transparencia{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:401px) and (max-width:420px){
@@ -186,9 +245,7 @@
     .fb-page[data-width]{
         width:380px;
     }
-    .uk-navbar-center img{
-        width: 120px;
-    }
+     
     #ejemplocontacto{
         background-image: url(../img/BANERS/12.png);
     }
@@ -201,9 +258,27 @@
     .nav-tabs > .nav-item >.nav-link{
         padding: 15px 20px;
     } 
+    .footer .botones-footer .btn{
+        margin:0 15px;
+    }
+    #img-inicio{
+        width: 40%;
+    }
+    #img-logo3{
+        width:75%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 1px;
+    }
+    #img-center-transparencia{
+        width: 100%;
+    }
 }
 
-@media screen and (min-width:421px) and (max-width:700px){
+@media screen and (min-width:421px) and (max-width:499px){
     h2{
         font-size: 25px;
     }
@@ -245,8 +320,73 @@
         text-align: center;
         user-select: none;
     }
-    .uk-navbar-center img{
-        width: 120px;
+    #ejemplocontacto{
+        background-image: url(../img/BANERS/12.png);
+    }
+    #twitter, #mail, #facebook, #youtube,  .fa-brands, .fa-regular{
+        font-size: 2rem;
+    }
+    .nav-tabs > .nav-item >.nav-link{
+        padding: 15px 25px;
+    } 
+    #img-inicio{
+        width: 38%;
+    }
+    #img-logo3{
+        width:70%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 15px;
+    }
+    #img-center-transparencia{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:599px){
+    h2{
+        font-size: 25px;
+    }
+    #imgcenter{
+        width: 400px;
+        height:auto;
+    }
+    .fb-page[data-width]{
+        width:450px;
+    }
+    .div-imagen > #div1 {   
+        padding: 180px;
+    }
+    #cont10{
+        width: 360px;
+        height: 150px;
+        position:relative;
+        display: flex;
+        overflow: hidden;
+        transition: all 0.5s ease;
+    }
+    #cont10 img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        transition: 0.5s;
+    }
+    #cont10 p{
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        width: 100px;
+        height: 30px;
+        border: 2px solid red;
+        text-align: center;
+        user-select: none;
     }
     #ejemplocontacto{
         background-image: url(../img/BANERS/12.png);
@@ -257,9 +397,110 @@
     .nav-tabs > .nav-item >.nav-link{
         padding: 15px 25px;
     } 
+    #img-inicio{
+        width: 38%;
+    }
+    #img-logo3{
+        width:70%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 15px;
+    }
+    #img-center-transparencia{
+        width: 70%;
+    }
+    #img-logo4{
+        width: 70%;
+        display: block;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer .main-txt-footer{
+        padding: 0px 50px;
+    }
 }
-
-@media screen and (min-width:701px) and (max-width:750px){
+@media screen and (min-width:600px) and (max-width:699px){
+    h2{
+        font-size: 25px;
+    }
+    #imgcenter{
+        width: 400px;
+        height:auto;
+    }
+    .fb-page[data-width]{
+        width:500px;
+    }
+    .div-imagen > #div1 {   
+        padding: 180px;
+    }
+    #cont10{
+        width: 360px;
+        height: 150px;
+        position:relative;
+        display: flex;
+        overflow: hidden;
+        transition: all 0.5s ease;
+    }
+    #cont10 img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        transition: 0.5s;
+    }
+    #cont10 p{
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        width: 100px;
+        height: 30px;
+        border: 2px solid red;
+        text-align: center;
+        user-select: none;
+    }
+    #ejemplocontacto{
+        background-image: url(../img/BANERS/12.png);
+    }
+    #twitter, #mail, #facebook, #youtube,  .fa-brands, .fa-regular{
+        font-size: 2rem;
+    }
+    .nav-tabs > .nav-item >.nav-link{
+        padding: 15px 25px;
+    } 
+    #img-center-transparencia{
+        width: 70%;
+    }
+    #img-inicio{
+        width: 38%;
+    }
+    #img-logo3{
+        width:50%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 50px;
+    }
+    #img-logo4{
+        width: 60%;
+        display: block;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer .main-txt-footer{
+        padding: 0px 100px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:750px){
     .fb-page[data-width]{
         width:450px;
     }
@@ -280,16 +521,39 @@
     }
     h2{
         font-size: 27px;
-    }
-    .uk-navbar-center img{
-        width: 120px;
-    }
+    }     
+     
     #twitter, #mail, #facebook, #youtube,  .fa-brands, .fa-regular{
         font-size: 2rem;
     }
     .nav-tabs > .nav-item >.nav-link{
         padding: 15px 25px;
     } 
+    #img-center-transparencia{
+        width: 70%;
+    }
+    #img-inicio{
+        width: 38%;
+    }
+    #img-logo3{
+        width:50%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 50px;
+    }
+    #img-logo4{
+        width: 60%;
+        display: block;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer .main-txt-footer{
+        padding: 0px 100px;
+    }
 }
 
 @media screen and (min-width:751px) and (max-width:766px){
@@ -322,12 +586,37 @@
     .nav-tabs > .nav-item >.nav-link{
         padding: 15px 25px;
     } 
+    #img-center-transparencia{
+        width: 70%;
+    }
+    #img-inicio{
+        width: 38%;
+    }
+    #img-logo3{
+        width:50%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 50px;
+    }
+    #img-logo4{
+        width: 50%;
+        display: block;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer .main-txt-footer{
+        padding: 0px 100px;
+    }
 }
 
 @media screen and (min-width:766px) and (max-width:791px){
     .fb-page[data-width]{
         width:220px;
-    } 
+    }
     #imgcenter{
         width: 550px;
         height:auto;
@@ -378,6 +667,35 @@
     .nav-tabs > .nav-item >.nav-link{
         padding: 15px 25px;
     } 
+    .footer .botones-footer .btn{
+        margin: 0px 5px;
+    }
+    #img-center-transparencia{
+        width: 70%;
+    }
+    #img-inicio{
+        width: 38%;
+    }
+    #img-logo3{
+        width:50%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 50px;
+    }
+    #img-logo4{
+        width: 60%;
+        display: block;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer .main-txt-footer{
+        padding: 0px 100px;
+    }
+
 }
 
 @media screen and (min-width:792px) and (max-width:991px){
@@ -410,6 +728,34 @@
     .nav-tabs > .nav-item >.nav-link{
         padding: 15px 25px;
     } 
+    #img-center-transparencia{
+        width: 50%;
+    }
+    #img-inicio{
+        width: 24%;
+    }
+    #img-logo3{
+        width:40%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 50px;
+    }
+    #img-logo4{
+        width: 40%;
+        display: block;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer .main-txt-footer{
+        padding: 0px 100px;
+    }
+    .footer .botones-footer .btn{
+        margin: 0 10px;
+        }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px){
@@ -454,9 +800,7 @@
         text-align: center;
         user-select: none;
     }
-    .uk-navbar-center img{
-        width: 170px;
-    }
+     
     #colok > #colok1{
         width: 33.33%;
     }
@@ -469,6 +813,31 @@
     .nav-tabs > .nav-item >.nav-link{
         padding: 15px 30px;
     } 
+    #img-center-transparencia{
+        width: 40%;
+    }
+    #img-inicio{
+        width: 20%;
+    }
+    #img-logo3{
+        width:35%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 50px;
+    }
+    #img-logo4{
+        width: 90%;
+        display: block;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer .botones-footer .btn{
+    margin: 0 5px;
+    }
 }
 
 @media screen and (min-width:1201px) and (max-width:1400px){
@@ -513,9 +882,8 @@
         text-align: center;
         user-select: none;
     }
-    .uk-navbar-center img{
-        width: 170px;
-    }
+     
+
     #colok > #colok1{
         width: 33.33%;
     }
@@ -525,6 +893,7 @@
     }
     h2{
         font-size: 32px;
+    
     }
     #twitter, #mail, #facebook, #youtube,  .fa-brands, .fa-regular{
         font-size: 2.5rem;
@@ -532,6 +901,31 @@
     .nav-tabs > .nav-item >.nav-link{
         padding: 15px 45px;
     } 
+    #img-center-transparencia{
+        width: 40%;
+    }
+    #img-inicio{
+        width: 22%;
+    }
+    #img-logo3{
+        width:30%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 60px;
+    }
+    #img-logo4{
+        width: 90%;
+        display: block;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer .botones-footer .btn{
+    margin: 0 5px;
+    }
 }
 
 @media screen and (min-width:1401px){
@@ -577,9 +971,7 @@
         text-align: center;
         user-select: none;
     }
-    .uk-navbar-center img{
-        width: 170px;
-    }
+     
     h2{
         font-size: 35px;
     }
@@ -589,4 +981,29 @@
     .nav-tabs > .nav-item >.nav-link{
         padding: 15px 50px;
     } 
+    #img-center-transparencia{
+        width: 40%;
+    }
+    #img-inicio{
+        width: 15%;
+    }
+    #img-logo3{
+        width:25%;
+    }
+    .nav{
+        padding: 15px;
+    }
+    .nav-item-back{
+        margin-left: 60px;
+    }
+    #img-logo4{
+        width: 70%;
+        display: block;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer .botones-footer .btn{
+    margin: 0 7px;
+    }
 }
